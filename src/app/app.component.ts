@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-quickstart';
-  constructor(private window: Window) { }
-
-  ngOnInit(): void {
-    console.log(this.window)
-  }
 }

@@ -22,7 +22,7 @@ export class LaunchComponent implements OnInit {
       iss: 'https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d',
       // fhirServiceUrl: 'https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d',
       client_id: '0cd11eb8-a8f1-4467-9659-043c97a33fba',
-      scope: 'launch online_access openid profile user/AllergyIntolerance.read user/Coverage.read user/Appointment.read user/Observation.read user/Patient.read user/Practitioner.read user/ServiceRequest.read user/DocumentReference.read user/Organization.read user/Encounter.read user/Location.read user/Binary.read user/Condition.read user/CarePlan.read user/careTeam.read user/Device.read user/DiagnosticReport.read user/Goal.read user/Immunization.read  user/Medication.read user/MedicationRequest.read user/Organization.read user/Procedure.read user/Provenance.read user/RelatedPerson.read user/QuestionnaireResponse.read',
+      scope: 'launch online_access openid profile user/AllergyIntolerance.read user/Coverage.read user/Appointment.read user/Observation.read user/Patient.read user/Practitioner.read user/ServiceRequest.read user/DocumentReference.read user/Organization.read user/Encounter.read user/Location.read user/Binary.read user/Condition.read user/CarePlan.read user/CareTeam.read user/Device.read user/DiagnosticReport.read user/Goal.read user/Immunization.read  user/Medication.read user/MedicationRequest.read user/Organization.read user/Procedure.read user/Provenance.read user/RelatedPerson.read user/QuestionnaireResponse.read',
       redirect_uri: 'https://exquisite-malasada-2ced12.netlify.app/home',
     })
   }
